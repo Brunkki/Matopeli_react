@@ -1,24 +1,41 @@
 .Error {
-    color: red;
-    font-size: large;
-    font-weight: bold;
+  color: red;
+  font-size: large;
+  font-weight: bold;
 }
 
 .Snake-board {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
 }
 
 .Snake-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .tile {
-    position: relative;
-    width: 10px;
-    height: 10px;
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+
+.blank {
+  background: white
+}
+
+.snake {
+  background: olive;
+}
+
+.obstacle {
+  background: black;
+}
+
+.food {
+  background: white;
 }
